@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Favv.Bricks.RabbitMQAdapter\Favv.Bricks.RabbitMQAdapter.csproj" />
+    <ProjectReference Include="..\..\Framework\CQRSlite\CQRSlite.csproj" />
+    <ProjectReference Include="..\Common\Favv.BeCert.Certificate.Common\Favv.BeCert.Certificate.Common.csproj" />
+    <ProjectReference Include="..\Favv.BeCert.Certificate.Dto\Favv.BeCert.Certificate.Dto.csproj" />
+    <ProjectReference Include="..\Favv.BeCert.Infrastructure\Favv.BeCert.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

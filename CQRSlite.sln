@@ -1,0 +1,248 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{693A83BF-7B14-459E-B245-82B7B9AF810E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{DC63AD03-D195-4E43-8120-0BD27AC86D46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSlite", "Framework\CQRSlite\CQRSlite.csproj", "{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSlite.Tests", "Framework\CQRSlite.Tests\CQRSlite.Tests.csproj", "{2694E1AD-335F-467B-9C0C-4979871830D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSlite.Tests.Extensions", "Framework\CQRSlite.Tests.Extensions\CQRSlite.Tests.Extensions.csproj", "{0A3F1993-C603-4CD9-BCB3-5791255B54AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSCode", "Sample\CQRSCode\CQRSCode.csproj", "{94A8AD91-1300-471D-AAC0-F6F310A54927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSWeb", "Sample\CQRSWeb\CQRSWeb.csproj", "{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSTest", "Sample\CQRSTest\CQRSTest.csproj", "{DE6E654C-00A3-4829-AABF-42F534078D00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D88E36CC-4CB2-436D-881B-5B6BB4174B42}"
+	ProjectSection(SolutionItems) = preProject
+		CQRSlite.nuspec = CQRSlite.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BAEAC5D-F931-4861-BFB9-60E705249D83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Certificate.Domain", "src\Favv.BeCert.Certificate.Domain\Favv.BeCert.Certificate.Domain.csproj", "{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Certificate.Domain.Test", "src\Favv.BeCert.Certificate.Domain.Test\Favv.BeCert.Certificate.Domain.Test.csproj", "{8827583D-E17F-4DCD-8EE9-37560BA06AB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Certificate.Api", "src\Favv.BeCert.Certificate.Api\Favv.BeCert.Certificate.Api.csproj", "{9A1D804E-8AD3-48B4-A665-D21C6526FC8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Certificate.Dto", "src\Favv.BeCert.Certificate.Dto\Favv.BeCert.Certificate.Dto.csproj", "{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Infrastructure", "src\Favv.BeCert.Infrastructure\Favv.BeCert.Infrastructure.csproj", "{3842BB6E-10EB-452F-98EE-82B295B71428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Web", "src\Favv.BeCert.Web\Favv.BeCert.Web.csproj", "{D84DCBBE-802E-4F3C-91BC-76B44AE53430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Web.Interfaces", "src\Favv.BeCert.Web.Interfaces\Favv.BeCert.Web.Interfaces.csproj", "{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{A94472C1-767F-4306-8D9D-FDB60FF834DB}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\CQRS Guidelines.docx = Doc\CQRS Guidelines.docx
+		Doc\CQRS Guidelines.simp = Doc\CQRS Guidelines.simp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2DF11011-1531-44DC-9479-A4F37BE269D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{860C503C-9F42-4E96-86FF-CA4F8A4176DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.Bricks.SharedCore", "src\Common\Favv.Bricks.SharedCore\Favv.Bricks.SharedCore.csproj", "{F39ADB8E-5FB9-42E3-A41A-231252136747}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.Bricks.RabbitMQAdapter", "Favv.Bricks.RabbitMQAdapter\Favv.Bricks.RabbitMQAdapter.csproj", "{839769DB-44BB-4E41-8AFB-156EC01AA0F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.Bricks.MSMQAdapter", "src\Bus\Favv.Bricks.MSMQAdapter\Favv.Bricks.MSMQAdapter.csproj", "{3B30111A-A065-4D2B-A216-3F2810578ADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Favv.BeCert.Certificate.Common", "src\Common\Favv.BeCert.Certificate.Common\Favv.BeCert.Certificate.Common.csproj", "{BCBF1801-D076-4A14-99C7-A0CA56ABACFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Favv.Bricks.NServiceBusAdapter", "src\Bus\Favv.Bricks.NServiceBusAdapter\Favv.Bricks.NServiceBusAdapter.csproj", "{45AAE067-54FF-448F-B180-E756E8CC7866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2694E1AD-335F-467B-9C0C-4979871830D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2694E1AD-335F-467B-9C0C-4979871830D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2694E1AD-335F-467B-9C0C-4979871830D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2694E1AD-335F-467B-9C0C-4979871830D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3F1993-C603-4CD9-BCB3-5791255B54AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3F1993-C603-4CD9-BCB3-5791255B54AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3F1993-C603-4CD9-BCB3-5791255B54AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3F1993-C603-4CD9-BCB3-5791255B54AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A8AD91-1300-471D-AAC0-F6F310A54927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A8AD91-1300-471D-AAC0-F6F310A54927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A8AD91-1300-471D-AAC0-F6F310A54927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A8AD91-1300-471D-AAC0-F6F310A54927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6E654C-00A3-4829-AABF-42F534078D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6E654C-00A3-4829-AABF-42F534078D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6E654C-00A3-4829-AABF-42F534078D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6E654C-00A3-4829-AABF-42F534078D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8827583D-E17F-4DCD-8EE9-37560BA06AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8827583D-E17F-4DCD-8EE9-37560BA06AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8827583D-E17F-4DCD-8EE9-37560BA06AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8827583D-E17F-4DCD-8EE9-37560BA06AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1D804E-8AD3-48B4-A665-D21C6526FC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1D804E-8AD3-48B4-A665-D21C6526FC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1D804E-8AD3-48B4-A665-D21C6526FC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1D804E-8AD3-48B4-A665-D21C6526FC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3842BB6E-10EB-452F-98EE-82B295B71428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3842BB6E-10EB-452F-98EE-82B295B71428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3842BB6E-10EB-452F-98EE-82B295B71428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3842BB6E-10EB-452F-98EE-82B295B71428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84DCBBE-802E-4F3C-91BC-76B44AE53430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84DCBBE-802E-4F3C-91BC-76B44AE53430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84DCBBE-802E-4F3C-91BC-76B44AE53430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84DCBBE-802E-4F3C-91BC-76B44AE53430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39ADB8E-5FB9-42E3-A41A-231252136747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39ADB8E-5FB9-42E3-A41A-231252136747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39ADB8E-5FB9-42E3-A41A-231252136747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39ADB8E-5FB9-42E3-A41A-231252136747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839769DB-44BB-4E41-8AFB-156EC01AA0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839769DB-44BB-4E41-8AFB-156EC01AA0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839769DB-44BB-4E41-8AFB-156EC01AA0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839769DB-44BB-4E41-8AFB-156EC01AA0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B30111A-A065-4D2B-A216-3F2810578ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B30111A-A065-4D2B-A216-3F2810578ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B30111A-A065-4D2B-A216-3F2810578ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B30111A-A065-4D2B-A216-3F2810578ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBF1801-D076-4A14-99C7-A0CA56ABACFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBF1801-D076-4A14-99C7-A0CA56ABACFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBF1801-D076-4A14-99C7-A0CA56ABACFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBF1801-D076-4A14-99C7-A0CA56ABACFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AAE067-54FF-448F-B180-E756E8CC7866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AAE067-54FF-448F-B180-E756E8CC7866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AAE067-54FF-448F-B180-E756E8CC7866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AAE067-54FF-448F-B180-E756E8CC7866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71DFCD1D-AC1E-4CAE-9998-C747662DBF0E} = {693A83BF-7B14-459E-B245-82B7B9AF810E}
+		{2694E1AD-335F-467B-9C0C-4979871830D3} = {693A83BF-7B14-459E-B245-82B7B9AF810E}
+		{0A3F1993-C603-4CD9-BCB3-5791255B54AA} = {693A83BF-7B14-459E-B245-82B7B9AF810E}
+		{94A8AD91-1300-471D-AAC0-F6F310A54927} = {DC63AD03-D195-4E43-8120-0BD27AC86D46}
+		{C1214159-C75F-4CAC-82BD-A5E4E3F7F0E2} = {DC63AD03-D195-4E43-8120-0BD27AC86D46}
+		{DE6E654C-00A3-4829-AABF-42F534078D00} = {DC63AD03-D195-4E43-8120-0BD27AC86D46}
+		{2C8457AA-6E1C-48DC-B7BF-EF8F5A8CC117} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{8827583D-E17F-4DCD-8EE9-37560BA06AB8} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{9A1D804E-8AD3-48B4-A665-D21C6526FC8C} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{ABBE2CBA-9F1A-43F1-85AE-6FF453954C2C} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{3842BB6E-10EB-452F-98EE-82B295B71428} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{D84DCBBE-802E-4F3C-91BC-76B44AE53430} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{BF257C91-28C6-4D3F-84CC-7EC0F8A5869F} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{2DF11011-1531-44DC-9479-A4F37BE269D6} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{860C503C-9F42-4E96-86FF-CA4F8A4176DB} = {8BAEAC5D-F931-4861-BFB9-60E705249D83}
+		{F39ADB8E-5FB9-42E3-A41A-231252136747} = {2DF11011-1531-44DC-9479-A4F37BE269D6}
+		{839769DB-44BB-4E41-8AFB-156EC01AA0F3} = {860C503C-9F42-4E96-86FF-CA4F8A4176DB}
+		{3B30111A-A065-4D2B-A216-3F2810578ADA} = {860C503C-9F42-4E96-86FF-CA4F8A4176DB}
+		{BCBF1801-D076-4A14-99C7-A0CA56ABACFB} = {2DF11011-1531-44DC-9479-A4F37BE269D6}
+		{45AAE067-54FF-448F-B180-E756E8CC7866} = {860C503C-9F42-4E96-86FF-CA4F8A4176DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1D675E0-0452-44C3-AFB3-34CF0BA21F6B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://emmanuelnuyttens.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sample\\CQRSCode\\CQRSCode.csproj
+		SccProjectTopLevelParentUniqueName1 = CQRSlite.sln
+		SccProjectName1 = Sample/CQRSCode
+		SccLocalPath1 = Sample\\CQRSCode
+		SccProjectUniqueName2 = Framework\\CQRSlite\\CQRSlite.csproj
+		SccProjectTopLevelParentUniqueName2 = CQRSlite.sln
+		SccProjectName2 = Framework/CQRSlite
+		SccLocalPath2 = Framework\\CQRSlite
+		SccProjectUniqueName3 = Framework\\CQRSlite.Tests\\CQRSlite.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = CQRSlite.sln
+		SccProjectName3 = Framework/CQRSlite.Tests
+		SccLocalPath3 = Framework\\CQRSlite.Tests
+		SccProjectUniqueName4 = Framework\\CQRSlite.Tests.Extensions\\CQRSlite.Tests.Extensions.csproj
+		SccProjectTopLevelParentUniqueName4 = CQRSlite.sln
+		SccProjectName4 = Framework/CQRSlite.Tests.Extensions
+		SccLocalPath4 = Framework\\CQRSlite.Tests.Extensions
+		SccProjectUniqueName5 = Sample\\CQRSTest\\CQRSTest.csproj
+		SccProjectTopLevelParentUniqueName5 = CQRSlite.sln
+		SccProjectName5 = Sample/CQRSTest
+		SccLocalPath5 = Sample\\CQRSTest
+		SccProjectUniqueName6 = Sample\\CQRSWeb\\CQRSWeb.csproj
+		SccProjectTopLevelParentUniqueName6 = CQRSlite.sln
+		SccProjectName6 = Sample/CQRSWeb
+		SccLocalPath6 = Sample\\CQRSWeb
+		SccProjectUniqueName7 = src\\Favv.BeCert.Certificate.Api\\Favv.BeCert.Certificate.Api.csproj
+		SccProjectTopLevelParentUniqueName7 = CQRSlite.sln
+		SccProjectName7 = src/Favv.BeCert.Certificate.Api
+		SccLocalPath7 = src\\Favv.BeCert.Certificate.Api
+		SccProjectUniqueName8 = src\\Favv.BeCert.Certificate.Domain\\Favv.BeCert.Certificate.Domain.csproj
+		SccProjectTopLevelParentUniqueName8 = CQRSlite.sln
+		SccProjectName8 = src/Favv.BeCert.Certificate.Domain
+		SccLocalPath8 = src\\Favv.BeCert.Certificate.Domain
+		SccProjectUniqueName9 = src\\Favv.BeCert.Certificate.Domain.Test\\Favv.BeCert.Certificate.Domain.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = CQRSlite.sln
+		SccProjectName9 = src/Favv.BeCert.Certificate.Domain.Test
+		SccLocalPath9 = src\\Favv.BeCert.Certificate.Domain.Test
+		SccProjectUniqueName10 = src\\Favv.BeCert.Certificate.Dto\\Favv.BeCert.Certificate.Dto.csproj
+		SccProjectTopLevelParentUniqueName10 = CQRSlite.sln
+		SccProjectName10 = src/Favv.BeCert.Certificate.Dto
+		SccLocalPath10 = src\\Favv.BeCert.Certificate.Dto
+		SccProjectUniqueName11 = src\\Favv.BeCert.Infrastructure\\Favv.BeCert.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName11 = CQRSlite.sln
+		SccProjectName11 = src/Favv.BeCert.Infrastructure
+		SccLocalPath11 = src\\Favv.BeCert.Infrastructure
+		SccProjectUniqueName12 = src\\Favv.BeCert.Web\\Favv.BeCert.Web.csproj
+		SccProjectTopLevelParentUniqueName12 = CQRSlite.sln
+		SccProjectName12 = src/Favv.BeCert.Web
+		SccLocalPath12 = src\\Favv.BeCert.Web
+		SccProjectUniqueName13 = src\\Favv.BeCert.Web.Interfaces\\Favv.BeCert.Web.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName13 = CQRSlite.sln
+		SccProjectName13 = src/Favv.BeCert.Web.Interfaces
+		SccLocalPath13 = src\\Favv.BeCert.Web.Interfaces
+		SccProjectUniqueName14 = src\\Common\\Favv.Bricks.SharedCore\\Favv.Bricks.SharedCore.csproj
+		SccProjectTopLevelParentUniqueName14 = CQRSlite.sln
+		SccProjectName14 = src/Common/Favv.Bricks.SharedCore
+		SccLocalPath14 = src\\Common\\Favv.Bricks.SharedCore
+		SccProjectUniqueName15 = Favv.Bricks.RabbitMQAdapter\\Favv.Bricks.RabbitMQAdapter.csproj
+		SccProjectTopLevelParentUniqueName15 = CQRSlite.sln
+		SccProjectName15 = Favv.Bricks.RabbitMQAdapter
+		SccLocalPath15 = Favv.Bricks.RabbitMQAdapter
+		SccProjectUniqueName16 = src\\Bus\\Favv.Bricks.MSMQAdapter\\Favv.Bricks.MSMQAdapter.csproj
+		SccProjectTopLevelParentUniqueName16 = CQRSlite.sln
+		SccProjectName16 = src/Bus/Favv.Bricks.MSMQAdapter
+		SccLocalPath16 = src\\Bus\\Favv.Bricks.MSMQAdapter
+		SccProjectUniqueName17 = src\\Common\\Favv.BeCert.Certificate.Common\\Favv.BeCert.Certificate.Common.csproj
+		SccProjectTopLevelParentUniqueName17 = CQRSlite.sln
+		SccProjectName17 = src/Common/Favv.BeCert.Certificate.Common
+		SccLocalPath17 = src\\Common\\Favv.BeCert.Certificate.Common
+		SccProjectUniqueName18 = src\\Bus\\Favv.Bricks.NServiceBusAdapter\\Favv.Bricks.NServiceBusAdapter.csproj
+		SccProjectTopLevelParentUniqueName18 = CQRSlite.sln
+		SccProjectName18 = src/Bus/Favv.Bricks.NServiceBusAdapter
+		SccLocalPath18 = src\\Bus\\Favv.Bricks.NServiceBusAdapter
+	EndGlobalSection
+EndGlobal

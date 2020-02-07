@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Scrutor" Version="3.0.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Favv.Bricks.RabbitMQAdapter\Favv.Bricks.RabbitMQAdapter.csproj" />
+    <ProjectReference Include="..\..\Framework\CQRSlite\CQRSlite.csproj" />
+    <ProjectReference Include="..\Common\Favv.Bricks.SharedCore\Favv.Bricks.SharedCore.csproj" />
+    <ProjectReference Include="..\Favv.BeCert.Certificate.Domain\Favv.BeCert.Certificate.Domain.csproj" />
+    <ProjectReference Include="..\Favv.BeCert.Certificate.Dto\Favv.BeCert.Certificate.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

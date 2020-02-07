@@ -1,0 +1,22 @@
+2019-06-12 13:39:15.397 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:23:58.970 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:29:34.541 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:31:03.090 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:32:51.438 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:33:38.499 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:34:34.360 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:36:38.415 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:41:43.831 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:42:08.755 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:44:11.693 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:44:57.049 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:45:31.538 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:46:39.842 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:51:53.797 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:52:51.645 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:53:32.221 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:54:38.930 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:54:48.889 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:57:06.997 +02:00 [Information] Inside Startup ctor
+2019-06-12 14:57:42.514 +02:00 [Information] Created Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China
+2019-06-12 14:57:53.087 +02:00 [Information] Send Command of type [Favv.BeCert.Certificate.Domain.WriteModel.Commands.CreateCertificateItemCommand] with values: EnterpriseNumber:ENT-007|ProductCategory:MEAT|Product:Pigs|Country:China

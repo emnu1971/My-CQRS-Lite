@@ -1,0 +1,1 @@
+2019-06-17 15:57:05.232 +02:00 [Information] Inside Startup ctor
